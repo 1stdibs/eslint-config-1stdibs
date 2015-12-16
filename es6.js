@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = {
+    ecmaFeatures: {
+        modules: true
+    },
     "env": {
         "es6": true
     },
