@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
   "repository": {
-	"type": "git",
-	"url": "https://github.com/1stdibs/eslint-config-1stdibs"
+    "type": "git",
+    "url": "https://github.com/1stdibs/eslint-config-1stdibs"
   },
   "peerDependencies": {
     "eslint": "^1.6.0",
