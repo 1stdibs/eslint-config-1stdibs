@@ -2,14 +2,20 @@
 
 module.exports = {
     "plugins": [
+        "flowtype",
+        "flow-vars",
         "react"
     ],
+    "parser": "babel-eslint",
     "parserOptions": {
+        "sourceType": "script",
         "ecmaFeatures": {
             "jsx": true
         }
     },
     "rules": {
+        "flow-vars/define-flow-type": 1,
+        "flow-vars/use-flow-type": 1,
         "react/display-name": [
             1,
             {
@@ -43,5 +49,10 @@ module.exports = {
         "react/self-closing-comp": 2,
         "react/sort-comp": 1,
         "react/wrap-multilines": 2
+    },
+    "settings": {
+        "flowtype": {
+            "onlyFilesWithFlowAnnotation": true
+        }
     }
 };
