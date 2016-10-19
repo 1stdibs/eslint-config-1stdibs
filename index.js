@@ -116,7 +116,7 @@ module.exports = {
             }
         ],
         "comma-spacing": [
-            0,
+            1,
             {
                 "before": false,
                 "after": true
@@ -140,7 +140,7 @@ module.exports = {
         "no-multi-spaces": 1,
         "no-spaced-func": 1,
         "key-spacing": [
-            0,
+            1,
             {
                 "mode": "strict",
                 "afterColon": true,
