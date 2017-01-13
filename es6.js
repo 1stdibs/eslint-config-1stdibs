@@ -1,6 +1,9 @@
 'use strict';
 
 module.exports = {
+    "ecmaFeatures": {
+        "modules": true
+    },
     "plugins": [
         "flowtype",
         "flow-vars"
