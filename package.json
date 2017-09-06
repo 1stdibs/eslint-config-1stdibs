@@ -12,11 +12,10 @@
   "peerDependencies": {
     "babel-eslint": "^6.0.4",
     "eslint": "^2.0.0",
-    "eslint-plugin-flowtype": "^2.2.7",
-    "eslint-plugin-flow-vars": "^0.4.0",
-    "eslint-plugin-react": "^4.1.0",
+    "eslint-plugin-flowtype": "^2.35.1",
     "eslint-plugin-jasmine": "^1.4.0",
     "eslint-plugin-mocha": "^2.0.0",
+    "eslint-plugin-react": "^4.1.0",
     "eslint-plugin-require-path-exists": "^1.1.5"
   }
 }
