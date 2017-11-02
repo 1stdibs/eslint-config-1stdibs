@@ -5,7 +5,16 @@ module.exports = {
             "never"
         ],
         "camelcase": 1,
-        "comma-dangle": 2,
+        "comma-dangle": [
+            2,
+            {
+                "arrays": "ignore",
+                "objects": "ignore",
+                "imports": "never",
+                "exports": "never",
+                "functions": "never"
+            }
+        ],
         "comma-spacing": [
             1,
             {
