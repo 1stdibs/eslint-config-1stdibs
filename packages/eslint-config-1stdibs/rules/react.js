@@ -1,5 +1,3 @@
-'use strict';
-
 module.exports = {
     "plugins": [
         "react"
@@ -26,8 +24,7 @@ module.exports = {
         "react/jsx-uses-vars": 2,
         "react/no-danger": 0,
         "react/no-did-mount-set-state": [
-            2,
-            "allow-in-func"
+            2
         ],
         "react/no-did-update-set-state": 2,
         "react/no-multi-comp": [
@@ -39,10 +36,9 @@ module.exports = {
         "react/no-unknown-property": 2,
         "react/prop-types": 1,
         "react/react-in-jsx-scope": 2,
-        "react/require-extension": 1,
         "react/self-closing-comp": 2,
         "react/sort-comp": 1,
-        "react/wrap-multilines": 2,
+        "react/jsx-wrap-multilines": 2,
         "react/jsx-closing-bracket-location": 1,
         "react/jsx-indent-props": 1,
         "react/prefer-es6-class": [1, "always"],
