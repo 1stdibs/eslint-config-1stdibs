@@ -2,6 +2,13 @@ module.exports = {
     "plugins": [
         "flowtype"
     ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "env": {
+        "es6": true
+    },
     "rules": {
         "flowtype/define-flow-type": 1,
         "flowtype/use-flow-type": 1,
