@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
@@ -11,7 +11,7 @@
   },
   "peerDependencies": {
     "babel-eslint": "^8.0.1",
-    "eslint": "^2.0.0",
+    "eslint": "^4.10.0",
     "eslint-plugin-flowtype": "^2.39.1",
     "eslint-plugin-jasmine": "^2.9.1",
     "eslint-plugin-mocha": "^4.11.0",
