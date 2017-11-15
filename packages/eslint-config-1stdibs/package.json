@@ -22,6 +22,6 @@
     "eslint": "^4.10.0"
   },
   "dependencies": {
-    "eslint-config-1stdibs-base": "^1.0.0"
+    "eslint-config-1stdibs-base": "^1.0.1"
   }
 }
