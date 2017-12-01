@@ -12,6 +12,7 @@ module.exports = {
         "./rules/requirePathExists",
         "./rules/strict",
         "./rules/style",
+        "./rules/tests",
         "./rules/variables"
     ].map(require.resolve)
 };
