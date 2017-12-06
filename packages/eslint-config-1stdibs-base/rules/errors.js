@@ -11,7 +11,6 @@ module.exports = {
         "no-inner-declarations": 2,
         "no-irregular-whitespace": 2,
         "no-negated-in-lhs": 2,
-        "no-unexpected-multiline": 2,
         "no-unreachable": 2,
         "no-unsafe-negation": 2,
         "valid-typeof": 1
