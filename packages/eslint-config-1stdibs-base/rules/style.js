@@ -35,13 +35,6 @@ module.exports = {
             1,
             "never"
         ],
-        "indent": [
-            1,
-            4,
-            {
-                "SwitchCase": 1
-            }
-        ],
         "key-spacing": [
             1,
             {
@@ -84,13 +77,6 @@ module.exports = {
         "space-before-blocks": [
             2,
             "always"
-        ],
-        "space-before-function-paren": [
-            1,
-            {
-                "anonymous": "always",
-                "named": "never"
-            }
         ],
         "space-in-parens": [
             1,
