@@ -17,8 +17,6 @@ module.exports = {
         "flowtype/no-primitive-constructor-types": 1,
         "flowtype/no-types-missing-file-annotation": 1,
         "flowtype/require-valid-file-annotation": [1, "never"],
-        "flowtype/space-after-type-colon": [1, "always"],
-        "flowtype/union-intersection-spacing": [1, "always"]
     },
     "settings": {
         "flowtype": {

@@ -38,9 +38,6 @@ module.exports = {
         "react/react-in-jsx-scope": 2,
         "react/self-closing-comp": 2,
         "react/sort-comp": 1,
-        "react/jsx-wrap-multilines": 2,
-        "react/jsx-closing-bracket-location": 1,
-        "react/jsx-indent-props": 1,
         "react/prefer-es6-class": [1, "always"],
         "react/prefer-stateless-function": 1
     }

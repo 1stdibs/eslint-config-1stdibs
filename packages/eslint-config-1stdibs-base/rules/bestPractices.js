@@ -15,7 +15,6 @@ module.exports = {
         "no-extra-bind": 2,
         "no-iterator": 1,
         "no-loop-func": 1,
-        "no-multi-spaces": 1,
         "no-multi-str": 1,
         "no-new": 0,
         "no-new-func": 2,
@@ -26,7 +25,6 @@ module.exports = {
         "no-unused-expressions": 2,
         "no-with": 2,
         "vars-on-top": 1,
-        "wrap-iife": 2,
         "yoda": 0
     }
 };
