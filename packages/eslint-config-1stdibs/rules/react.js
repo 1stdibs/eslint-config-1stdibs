@@ -24,9 +24,9 @@ module.exports = {
         "react/jsx-uses-vars": 2,
         "react/no-danger": 0,
         "react/no-did-mount-set-state": [
-            2
+            0
         ],
-        "react/no-did-update-set-state": 2,
+        "react/no-did-update-set-state": 0,
         "react/no-multi-comp": [
             2,
             {
