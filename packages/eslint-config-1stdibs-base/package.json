@@ -13,8 +13,7 @@
     "babel-eslint": "^8.0.1",
     "eslint": "^4.10.0",
     "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jest": "^21.3.2",
-    "eslint-plugin-require-path-exists": "^1.1.5"
+    "eslint-plugin-jest": "^21.3.2"
   },
   "devDependencies": {
     "eslint": "^4.10.0"

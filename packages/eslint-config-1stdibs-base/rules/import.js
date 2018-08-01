@@ -27,6 +27,18 @@ module.exports = {
                 "js": "never",
                 "jsx": "never"
             }
+        ],
+        "import/no-absolute-path": [
+            1,
+            {
+                commonjs: true
+            }
+        ],
+        "import/no-unresolved": [
+            1,
+            {
+                commonjs: true
+            }
         ]
     }
 };

@@ -9,7 +9,6 @@ module.exports = {
         "./rules/es6",
         "./rules/import",
         "./rules/node",
-        "./rules/requirePathExists",
         "./rules/strict",
         "./rules/style",
         "./rules/tests",
