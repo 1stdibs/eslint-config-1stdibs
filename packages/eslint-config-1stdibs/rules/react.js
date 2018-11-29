@@ -22,16 +22,8 @@ module.exports = {
         "react/jsx-boolean-value": 1,
         "react/jsx-no-duplicate-props": 2,
         "react/jsx-no-undef": 2,
-        "react/jsx-quotes": 0,
-        "react/jsx-sort-prop-types": 0,
-        "react/jsx-sort-props": 0,
         "react/jsx-uses-react": 2,
         "react/jsx-uses-vars": 2,
-        "react/no-danger": 0,
-        "react/no-did-mount-set-state": [
-            0
-        ],
-        "react/no-did-update-set-state": 0,
         "react/no-multi-comp": [
             2,
             {
