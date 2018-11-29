@@ -2,6 +2,11 @@ module.exports = {
     "plugins": [
         "react"
     ],
+    "settings": {
+        "react": {
+            "version": "16.5"
+        }
+    },
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
