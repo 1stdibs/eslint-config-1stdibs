@@ -207,6 +207,11 @@ eslint-config-1stdibs-base@^1.4.1:
   version "1.4.1"
   resolved "https://registry.npmjs.org/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-1.4.1.tgz#881dd614a6a76dcd79c918e7fb29c5a9bd680226"
 
+eslint-plugin-react-hooks@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.0.0.tgz#1c62dd168221821c3d0bd2ea05b01ec29ee4f27a"
+  integrity sha512-fXU6nfMv3w8M9WWUqKsjO5HejdqkTpzN3AGTGYYSEpXxXRGk1a0CSylwMCvap09PQ/umHqDsNOQ/H0Q3I0ytsw==
+
 eslint-scope@^3.7.1:
   version "3.7.1"
   resolved "http://npm.intranet.1stdibs.com:4783/eslint-scope/-/eslint-scope-3.7.1.tgz#3d63c3edfda02e06e01a452ad88caacc7cdcb6e8"

@@ -1,6 +1,7 @@
 module.exports = {
     "plugins": [
-        "react"
+        "react",
+        "react-hooks"
     ],
     "settings": {
         "react": {
@@ -37,6 +38,7 @@ module.exports = {
         "react/sort-comp": 1,
         "react/prefer-es6-class": [1, "always"],
         "react/prefer-stateless-function": 1,
-        "react/jsx-no-target-blank": 1
+        "react/jsx-no-target-blank": 1,
+        "react-hooks/rules-of-hooks": 2
     }
 };
