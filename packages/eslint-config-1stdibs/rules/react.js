@@ -1,7 +1,8 @@
 module.exports = {
     "plugins": [
         "react",
-        "react-hooks"
+        "react-hooks",
+        "relay"
     ],
     "settings": {
         "react": {
@@ -39,6 +40,10 @@ module.exports = {
         "react/prefer-es6-class": [1, "always"],
         "react/prefer-stateless-function": 1,
         "react/jsx-no-target-blank": 1,
-        "react-hooks/rules-of-hooks": 2
+        "react-hooks/rules-of-hooks": 2,
+        "react-hooks/exhaustive-deps": 1,
+        'relay/graphql-syntax': 1,
+        "relay/unused-fields": 1,
+        'relay/no-future-added-value': 1
     }
 };
