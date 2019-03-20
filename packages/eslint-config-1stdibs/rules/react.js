@@ -43,7 +43,6 @@ module.exports = {
         "react-hooks/rules-of-hooks": 2,
         "react-hooks/exhaustive-deps": 1,
         'relay/graphql-syntax': 1,
-        "relay/unused-fields": 1,
         'relay/no-future-added-value': 1
     }
 };
