@@ -10,7 +10,7 @@
     "url": "https://github.com/1stdibs/eslint-config-1stdibs"
   },
   "dependencies": {
-    "babel-eslint": "^8.0.1",
+    "babel-eslint": "^9.0.0",
     "eslint": "^4.10.0",
     "eslint-config-1stdibs-base": "^1.5.0",
     "eslint-plugin-flowtype": "^2.39.1",
