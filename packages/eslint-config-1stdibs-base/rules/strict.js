@@ -1,8 +1,5 @@
 module.exports = {
-    "rules": {
-        "strict": [
-            1,
-            "global"
-        ]
-    }
+    rules: {
+        strict: [1, 'global'],
+    },
 };

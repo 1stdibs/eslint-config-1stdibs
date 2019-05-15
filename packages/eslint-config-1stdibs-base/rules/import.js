@@ -1,45 +1,39 @@
 module.exports = {
-    "plugins": [
-        "import"
-    ],
-    "env": {
-        "es6": true
+    plugins: ['import'],
+    env: {
+        es6: true,
     },
-    "parserOptions": {
-        "ecmaVersion": 6,
-        "sourceType": "module"
+    parserOptions: {
+        ecmaVersion: 6,
+        sourceType: 'module',
     },
-    "settings": {
-        "import/resolver": {
-            "node": {
-                "extensions": [
-                    ".js",
-                    ".jsx",
-                    ".json"
-                ]
-            }
-        }
+    settings: {
+        'import/resolver': {
+            node: {
+                extensions: ['.js', '.jsx', '.json'],
+            },
+        },
     },
-    "rules": {
-        "import/extensions": [
+    rules: {
+        'import/extensions': [
             1,
-            "always",
+            'always',
             {
-                "js": "never",
-                "jsx": "never",
-            }
+                js: 'never',
+                jsx: 'never',
+            },
         ],
-        "import/no-absolute-path": [
+        'import/no-absolute-path': [
             1,
             {
-                commonjs: true
-            }
+                commonjs: true,
+            },
         ],
-        "import/no-unresolved": [
+        'import/no-unresolved': [
             1,
             {
-                commonjs: true
-            }
-        ]
-    }
+                commonjs: true,
+            },
+        ],
+    },
 };
