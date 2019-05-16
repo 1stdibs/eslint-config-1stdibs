@@ -4,9 +4,9 @@ module.exports = {
         es6: true,
     },
     rules: {
-        'no-use-before-define': 2,
-        'no-shadow': 1,
-        'no-undef': 2,
-        'no-unused-vars': 1,
+        'no-use-before-define': 'error',
+        'no-shadow': 'warn',
+        'no-undef': 'error',
+        'no-unused-vars': 'warn',
     },
 };

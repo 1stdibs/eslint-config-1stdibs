@@ -14,6 +14,6 @@ module.exports = {
         after: false,
     },
     rules: {
-        'mocha/no-exclusive-tests': 2,
+        'mocha/no-exclusive-tests': 'error',
     },
 };

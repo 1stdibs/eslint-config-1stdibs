@@ -4,8 +4,8 @@ module.exports = {
         'jest/globals': true,
     },
     rules: {
-        'jest/valid-expect': 1,
-        'jest/no-identical-title': 1,
-        'jest/no-focused-tests': 2,
+        'jest/valid-expect': 'warn',
+        'jest/no-identical-title': 'warn',
+        'jest/no-focused-tests': 'error',
     },
 };
