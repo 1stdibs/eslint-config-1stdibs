@@ -16,7 +16,7 @@ module.exports = {
     },
     rules: {
         'import/extensions': [
-            1,
+            'warn',
             'always',
             {
                 js: 'never',
@@ -24,13 +24,13 @@ module.exports = {
             },
         ],
         'import/no-absolute-path': [
-            1,
+            'warn',
             {
                 commonjs: true,
             },
         ],
         'import/no-unresolved': [
-            1,
+            'warn',
             {
                 commonjs: true,
             },

@@ -1,9 +1,9 @@
 module.exports = {
     rules: {
         camelcase: 'warn',
-        'consistent-this': [1, 'self'],
+        'consistent-this': ['warn', 'self'],
         'new-cap': [
-            1,
+            'warn',
             {
                 capIsNewExceptions: ['Deferred'],
             },
@@ -14,7 +14,7 @@ module.exports = {
         'no-new-object': 'error',
         'no-plusplus': 'off',
         'no-underscore-dangle': 'off',
-        'one-var': [1, 'never'],
+        'one-var': ['warn', 'never'],
         quotes: 'off',
     },
 };

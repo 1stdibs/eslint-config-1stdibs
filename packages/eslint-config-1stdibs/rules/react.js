@@ -12,7 +12,7 @@ module.exports = {
     },
     rules: {
         'react/display-name': [
-            1,
+            'warn',
             {
                 ignoreTranspilerName: false,
             },
@@ -23,7 +23,7 @@ module.exports = {
         'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
         'react/no-multi-comp': [
-            2,
+            'error',
             {
                 ignoreStateless: true,
             },
@@ -33,7 +33,7 @@ module.exports = {
         'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
         'react/sort-comp': 'warn',
-        'react/prefer-es6-class': [1, 'always'],
+        'react/prefer-es6-class': ['warn', 'always'],
         'react/prefer-stateless-function': 'warn',
         'react/jsx-no-target-blank': 'warn',
         'react-hooks/rules-of-hooks': 'error',

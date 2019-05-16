@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        'no-cond-assign': [1, 'always'],
+        'no-cond-assign': ['warn', 'always'],
         'no-debugger': 'error',
         'no-dupe-keys': 'warn',
         'no-empty': 'error',
