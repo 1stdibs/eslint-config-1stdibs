@@ -10,9 +10,11 @@
     "url": "https://github.com/1stdibs/eslint-config-1stdibs"
   },
   "dependencies": {
-    "babel-eslint": "^9.0.0",
-    "eslint": "^5.16.0",
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-jest": "^22.5.1"
+  },
+  "peerDependencies": {
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.16.0"
   }
 }
