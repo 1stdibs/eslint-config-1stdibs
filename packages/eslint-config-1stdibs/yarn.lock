@@ -365,10 +365,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@2.0.0-hella.3:
-  version "2.0.0-hella.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-2.0.0-hella.3.tgz#032cca6269147a8e7793018c13e85dba8ace5e66"
-  integrity sha512-OfWi7c+6RuXx+5ZI2s0Koj0J9NTO11eL+n9NKl+BCJFOrG5/nknYNPh77upJJwa/NmpauG1ZQ0BmRqjEHHMAlg==
+eslint-config-1stdibs-base@2.0.0-hella.4:
+  version "2.0.0-hella.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-2.0.0-hella.4.tgz#23d39666a49293850d4827b9f45235839a05d0a8"
+  integrity sha512-+hJ21ws1Trjr/cAoLPfaS0bjWqx//uHzqshfioi+9dD+Y7hwOItCoBM6hmJUH+1WJJVwZbvoVYWGe0yKCuhWHQ==
   dependencies:
     babel-eslint "^9.0.0"
     eslint-plugin-import "^2.8.0"
