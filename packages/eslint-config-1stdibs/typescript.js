@@ -1,24 +1,12 @@
-const path = require('path');
-/*
-'plugin:prettier/recommended':
-    recommended: {
-      extends: ['prettier'], // eslint-config-prettier
-      plugins: ['prettier'], // eslint-plugin-prettier
-      rules: {
-        'prettier/prettier': 'error'
-      }
-    
-*/
 module.exports = {
-    // plugins: ['eslint-plugin-prettier'].map(require.resolve),
     extends: [
-        '1stdibs-base',
+        'eslint-config-1stdibs-base',
         'plugin:@typescript-eslint/recommended',
-        'prettier/@typescript-eslint',
+        'eslint-config-prettier/@typescript-eslint',
         './rules/typescript.js',
         './rules/react.js',
     ],
-    plugins: ['prettier'],
+    plugins: ['eslint-plugin-prettier'],
     settings: {
         'import/resolver': {
             node: {
