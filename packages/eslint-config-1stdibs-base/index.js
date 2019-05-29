@@ -14,5 +14,4 @@ module.exports = {
         './rules/tests',
         './rules/variables',
     ].map(require.resolve),
-    rules: {},
 };
