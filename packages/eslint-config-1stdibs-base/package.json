@@ -16,5 +16,8 @@
   },
   "peerDependencies": {
     "eslint": ">=5.16.0 <6"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0"
   }
 }
