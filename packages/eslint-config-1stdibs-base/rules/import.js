@@ -10,7 +10,7 @@ module.exports = {
     settings: {
         'import/resolver': {
             node: {
-                extensions: ['.js', '.jsx', '.json'],
+                extensions: ['.ts', '.tsx', '.js', '.jsx', '.json'],
             },
         },
     },
@@ -21,6 +21,8 @@ module.exports = {
             {
                 js: 'never',
                 jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
             },
         ],
         'import/no-absolute-path': [
