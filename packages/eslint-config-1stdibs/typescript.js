@@ -7,24 +7,7 @@ module.exports = {
         './rules/react.js',
     ],
     plugins: ['eslint-plugin-prettier'],
-    settings: {
-        'import/resolver': {
-            node: {
-                extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
-            },
-        },
-    },
     rules: {
         'prettier/prettier': 'error',
-        'import/extensions': [
-            'warn',
-            'always',
-            {
-                js: 'never',
-                jsx: 'never',
-                ts: 'never',
-                tsx: 'never',
-            },
-        ],
     },
 };
