@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "5.0.0-hella.8",
+  "version": "5.0.0-hella.9",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
@@ -12,7 +12,7 @@
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.9.0",
     "@typescript-eslint/parser": "^1.9.0",
-    "eslint-config-1stdibs-base": "^2.0.0-hella.5",
+    "eslint-config-1stdibs-base": "^2.0.0-hella.6",
     "eslint-config-prettier": "^4.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.11.0",
