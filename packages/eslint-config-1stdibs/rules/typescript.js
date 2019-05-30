@@ -7,7 +7,7 @@ module.exports = {
     },
     overrides: [
         {
-            // ignore this spec files
+            // ignore spec files
             files: ['**/*+(_|.)spec.+(js|jsx|ts|tsx)'],
             rules: {
                 '@typescript-eslint/explicit-function-return-type': 'off',
