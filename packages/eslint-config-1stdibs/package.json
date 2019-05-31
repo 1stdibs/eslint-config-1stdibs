@@ -22,10 +22,10 @@
   },
   "devDependencies": {
     "eslint": "^5.16.0",
-    "typescript": "^3.4.5"
+    "typescript": "^3.5.1"
   },
   "peerDependencies": {
     "eslint": ">=5.16.0 <6",
-    "typescript": ">=3.4.5 <4"
+    "typescript": ">=3.5.1 <4"
   }
 }
