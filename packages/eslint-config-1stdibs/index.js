@@ -1,4 +1,5 @@
 module.exports = {
-    extends: ['eslint-config-1stdibs-base', './rules/react'].map(require.resolve),
-    rules: {},
+    extends: ['eslint-config-1stdibs-base', './rules/react', './rules/flowtype'].map(
+        require.resolve
+    ),
 };
