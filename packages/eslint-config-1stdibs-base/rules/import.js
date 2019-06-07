@@ -23,6 +23,7 @@ module.exports = {
                 jsx: 'never',
                 ts: 'never',
                 tsx: 'never',
+                json: 'never',
             },
         ],
         'import/no-absolute-path': [
