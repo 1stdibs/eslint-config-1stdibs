@@ -7,7 +7,4 @@ module.exports = {
         './rules/react.js',
     ],
     plugins: ['eslint-plugin-prettier'],
-    rules: {
-        'prettier/prettier': 'error',
-    },
 };
