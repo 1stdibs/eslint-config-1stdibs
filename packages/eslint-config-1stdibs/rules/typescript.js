@@ -1,15 +1,12 @@
 module.exports = {
-    plugins: ['@typescript-eslint/eslint-plugin'],
+    extends: ['./react'],
+    plugins: ['@typescript-eslint/eslint-plugin', 'eslint-plugin-react'],
     rules: {
-        'react/prop-types': 'off',
         // overwrite plugin rules
+        'react/prop-types': 'off',
+        // note you must disable the base rule as it can report incorrect errors
         camelcase: 'off',
-        '@typescript-eslint/camelcase': [
-            'error',
-            {
-                ignoreDestructuring: true,
-            },
-        ],
+        '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'warn',
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/prefer-interface': 'off',
