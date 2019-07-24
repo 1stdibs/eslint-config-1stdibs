@@ -1,9 +1,6 @@
 module.exports = {
-    extends: ['./react'],
-    plugins: ['@typescript-eslint/eslint-plugin', 'eslint-plugin-react'],
+    plugins: ['@typescript-eslint/eslint-plugin'],
     rules: {
-        // overwrite plugin rules
-        'react/prop-types': 'off',
         // note you must disable the base rule as it can report incorrect errors
         camelcase: 'off',
         '@typescript-eslint/camelcase': 'off',
