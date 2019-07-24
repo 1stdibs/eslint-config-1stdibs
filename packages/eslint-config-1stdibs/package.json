@@ -10,8 +10,8 @@
     "url": "https://github.com/1stdibs/eslint-config-1stdibs"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.9.0",
-    "@typescript-eslint/parser": "^1.9.0",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
     "eslint-config-1stdibs-base": "^2.0.0",
     "eslint-plugin-flowtype": "^3.9.1",
     "eslint-plugin-react": "^7.11.0",
