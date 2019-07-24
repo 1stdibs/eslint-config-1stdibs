@@ -5,12 +5,7 @@ module.exports = {
         './rules/typescript.js',
         './rules/react.js',
     ],
-    overrides: [
-        {
-            files: ['**/*.tsx'],
-            rules: {
-                'react/prop-types': 'off',
-            },
-        },
-    ],
+    rules: {
+        'react/prop-types': 'off',
+    },
 };
