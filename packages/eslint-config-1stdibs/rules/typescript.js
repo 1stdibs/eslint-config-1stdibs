@@ -14,5 +14,6 @@ module.exports = {
                 allowTypedFunctionExpressions: true,
             },
         ],
+        '@typescript-eslint/indent': 'off',
     },
 };
