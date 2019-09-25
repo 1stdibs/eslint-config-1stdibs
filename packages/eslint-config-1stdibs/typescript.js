@@ -12,7 +12,7 @@ module.exports = {
         // note you must disable the base rule as it can report incorrect errors
         camelcase: 'off',
         '@typescript-eslint/camelcase': 'off',
-        '@typescript-eslint/explicit-member-accessibility': 'warn',
+        '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',
         '@typescript-eslint/prefer-interface': 'off',
         '@typescript-eslint/explicit-function-return-type': [
@@ -23,5 +23,12 @@ module.exports = {
             },
         ],
         '@typescript-eslint/indent': 'off',
+        'no-restricted-syntax': [
+            'error',
+            {
+                selector: 'TSEnumDeclaration',
+                message: "Don't declare enums. TypeScript + babel issues",
+            },
+        ],
     },
 };
