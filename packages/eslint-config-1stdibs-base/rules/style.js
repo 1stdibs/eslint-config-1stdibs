@@ -1,6 +1,6 @@
 module.exports = {
     rules: {
-        camelcase: 'warn',
+        camelcase: 'off',
         'consistent-this': ['warn', 'self'],
         'new-cap': [
             'warn',
