@@ -379,9 +379,9 @@ escape-string-regexp@^1.0.5:
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
 eslint-config-1stdibs-base@^3.0.0:
-  version "3.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.0.2.tgz#b6156c0776ffa36748cc23418524cd482c26be78"
-  integrity sha512-XFMeElz48DXoYtMIwgzeFJAUTI7PAkOwae4TfhkR59U/2QyZ/s7/u01faPZegJ2DCZSM1uEQBrf8fYnKoHp7tA==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.1.0.tgz#ff240167bd1ad1386ce0191cc9a0f1b42b9b5f93"
+  integrity sha512-YvmZBMXXEraGj2OVas42KUu5qf+BQDfBEiWQZvJSVY8/5arVG54mgwJXG2E4wxjmE1Yfn1TVlfV+qkb2nh+8oQ==
   dependencies:
     babel-eslint "^9.0.0"
     eslint-config-prettier "^6.0.0"
