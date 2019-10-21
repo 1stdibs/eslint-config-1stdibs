@@ -9,8 +9,6 @@ module.exports = {
     ],
     rules: {
         'react/prop-types': 'off',
-        // note you must disable the base rule as it can report incorrect errors
-        camelcase: 'off',
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',

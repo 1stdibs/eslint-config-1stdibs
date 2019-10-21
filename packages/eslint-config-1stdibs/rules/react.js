@@ -42,15 +42,5 @@ module.exports = {
         // relay
         'relay/graphql-syntax': 'warn',
         'relay/no-future-added-value': 'warn',
-        'camelcase': [
-            'error',
-            {
-                'exceptions': [
-                    "UNSAFE_componentDidMount",
-                    "UNSAFE_componentWillReceiveProps",
-                    "UNSAFE_componentWillUpdate"
-                ]
-            },
-        ],
     },
 };
