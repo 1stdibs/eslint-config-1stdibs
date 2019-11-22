@@ -310,10 +310,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@3.1.0-hella.3:
-  version "3.1.0-hella.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.1.0-hella.3.tgz#8652cf27ca5264a30a32e36710437c1b352e5ca5"
-  integrity sha512-W7zhA+i2pGNhvStMFQKVrHZ4Hqxu+XUXj86HFjbz5UFL9TnR8ZI2rXOPaKqdM3tt38Md4iTJux8Z3KXfF01KCg==
+eslint-config-1stdibs-base@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-3.2.0.tgz#77feca929c5cf0343751d4c4b1d67bac435da04c"
+  integrity sha512-tKyuCQXcHiaMk2GUHKkrDveJPP0UOio7/mTu8xAEwcx1+zJrYT6f8tzhy+sRpOOfS5/s9u1mXPdjZbQylnPfxQ==
   dependencies:
     babel-eslint "^11.0.0-beta.0"
     eslint-config-prettier "^6.0.0"
