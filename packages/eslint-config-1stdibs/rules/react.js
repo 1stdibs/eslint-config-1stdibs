@@ -12,12 +12,6 @@ module.exports = {
         },
     },
     rules: {
-        'react/display-name': [
-            'warn',
-            {
-                ignoreTranspilerName: false,
-            },
-        ],
         'react/jsx-boolean-value': 'warn',
         'react/jsx-no-duplicate-props': 'error',
         'react/jsx-no-undef': 'error',
