@@ -33,6 +33,7 @@ module.exports = {
         'react/jsx-no-target-blank': 'warn',
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 'warn',
+        'react/no-array-index-key': 'warn',
         // relay
         'relay/graphql-syntax': 'warn',
         'relay/no-future-added-value': 'warn',
