@@ -1,5 +1,6 @@
 module.exports = {
     rules: {
+        'no-console': 'warn',
         'block-scoped-var': 'error',
         'consistent-return': 'warn',
         curly: 'error',
