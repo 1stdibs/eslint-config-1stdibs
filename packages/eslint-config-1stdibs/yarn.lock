@@ -384,10 +384,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@4.1.0-hella.1:
-  version "4.1.0-hella.1"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-4.1.0-hella.1.tgz#e3d4070e85dc4920ffbd37ec97f62d10b191b618"
-  integrity sha512-aljeFU+bb7Ofiz1OTUoYH4DlHyGA11hnNmYA6ukqUfBjSatKNK88oUYXWI4aG2bRBC0mT8tQDICrH6r81Tulrg==
+eslint-config-1stdibs-base@4.1.0-hella.2:
+  version "4.1.0-hella.2"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-4.1.0-hella.2.tgz#95dd42adcca5eab37f09d89f56780b33357f7f0d"
+  integrity sha512-WyEBVmm4AcmzusPRLAPOYJ0toPr0NOmo4JVwFlBEfnoP39/E8WV6J0RO/ObqoVtXugtq+upp87+nHM+UcJmoUg==
   dependencies:
     eslint-config-prettier "^6.0.0"
     eslint-plugin-import "^2.8.0"
