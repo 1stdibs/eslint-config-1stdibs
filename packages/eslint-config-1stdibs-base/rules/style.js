@@ -16,5 +16,6 @@ module.exports = {
         'no-underscore-dangle': 'off',
         'one-var': ['warn', 'never'],
         quotes: 'off',
+        'arrow-parens': 'avoid', // 2.0.0 default = always
     },
 };
