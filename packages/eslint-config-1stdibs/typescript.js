@@ -28,5 +28,8 @@ module.exports = {
                 message: "Don't declare enums. TypeScript + babel issues",
             },
         ],
+        '@typescript-eslint/no-inferrable-types': 'off',
+        '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/no-empty-function': 'off',
     },
 };
