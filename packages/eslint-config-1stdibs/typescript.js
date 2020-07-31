@@ -30,6 +30,7 @@ module.exports = {
         ],
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/ban-ts-ignore': 'off',
+        '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-empty-function': 'off',
     },
 };
