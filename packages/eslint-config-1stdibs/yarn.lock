@@ -486,10 +486,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@4.1.0-hella.3:
-  version "4.1.0-hella.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-4.1.0-hella.3.tgz#f226d6bd7f23c9bd5d9bbd7626d8833325ef64ef"
-  integrity sha512-ggdWf47FsifdyoHCL7u+JV1VeJXLUlZokPHwTpx4vAC6sMkC8wQZH8hWHBG3erB3gLoo8yfFyyr9gp4FVaOPHA==
+eslint-config-1stdibs-base@4.1.0-hella.4:
+  version "4.1.0-hella.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-4.1.0-hella.4.tgz#94846bd59477650588e90e102e55629a7d5c53f9"
+  integrity sha512-4gCHPlp6RlD3yp5WHqKd8IgL6qfw5X/YwnK75MWHoBcZun7VWT8XN7t6r5DYCVYQN0sifCY8pCT9zdzEJQzAjw==
   dependencies:
     eslint-config-prettier "^6.0.0"
     eslint-plugin-import "^2.8.0"
