@@ -486,16 +486,16 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-1stdibs-base@4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-4.1.0.tgz#034a074ea73b8deb1b2798473a1dbebe5f805b45"
-  integrity sha512-8Uny2vqFRXIHqTO7PcmOiT7ocK4XOVFmyz+3ND7T7qX3qZ4x/kyxZpQTYMLDlHogabGpQSDRQFAeBWsshQZvUQ==
+eslint-config-1stdibs-base@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-5.0.0.tgz#fc2f57a85569182ca439f9b649f16ce9a8351187"
+  integrity sha512-kmo6yUKt7R/oqv5MLlfY+LkgCsuoFH5rrO2X+cIUbsH8PnpjOPxpc0y2Xp2CcsGWiWT0Xp9KRcdRuIiZe/kmVg==
   dependencies:
     eslint-config-prettier "^6.0.0"
     eslint-plugin-import "^2.8.0"
     eslint-plugin-jest "^23.0.3"
     eslint-plugin-prettier "^3.1.0"
-    prettier "^1.18.2"
+    prettier "^2.0.0"
 
 eslint-config-prettier@^6.0.0:
   version "6.5.0"
@@ -1261,10 +1261,10 @@ prettier-linter-helpers@^1.0.0:
   dependencies:
     fast-diff "^1.1.2"
 
-prettier@^1.18.2:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.19.1.tgz#f7d7f5ff8a9cd872a7be4ca142095956a60797cb"
-  integrity sha512-s7PoyDv/II1ObgQunCbB9PdLmUcBZcnWOcxDh7O0N/UwDEsHyqkW+Qh28jW+mVuCdx7gLB0BotYI1Y6uI9iyew==
+prettier@^2.0.0:
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.0.5.tgz#d6d56282455243f2f92cc1716692c08aa31522d4"
+  integrity sha512-7PtVymN48hGcO4fGjybyBSIWDsLU4H4XlvOHfq91pz9kkGlonzwTfYkaIEwiRg/dAJF9YlbsduBAgtYLi+8cFg==
 
 progress@^2.0.0:
   version "2.0.3"
