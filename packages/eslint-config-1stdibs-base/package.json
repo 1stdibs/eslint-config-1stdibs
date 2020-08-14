@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-1stdibs-base",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "4.1.0-hella.5",
+  "version": "4.1.0",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
