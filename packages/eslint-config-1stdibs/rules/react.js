@@ -15,7 +15,6 @@ module.exports = {
         'react/jsx-boolean-value': 'warn',
         'react/jsx-no-duplicate-props': 'error',
         'react/jsx-no-undef': 'error',
-        'react/jsx-uses-react': 'error',
         'react/jsx-uses-vars': 'error',
         'react/no-multi-comp': [
             'error',
@@ -25,7 +24,6 @@ module.exports = {
         ],
         'react/no-unknown-property': 'error',
         'react/prop-types': 'warn',
-        'react/react-in-jsx-scope': 'error',
         'react/self-closing-comp': 'error',
         'react/sort-comp': 'warn',
         'react/prefer-es6-class': ['warn', 'always'],
