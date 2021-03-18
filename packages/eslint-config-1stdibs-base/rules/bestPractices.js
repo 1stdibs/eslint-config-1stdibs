@@ -17,7 +17,7 @@ module.exports = {
         'no-iterator': 'warn',
         'no-loop-func': 'warn',
         'no-multi-str': 'warn',
-        'no-mixed-operators': 'error',
+        'no-mixed-operators': 'off',
         'no-new': 'off',
         'no-new-func': 'error',
         'no-proto': 'warn',
