@@ -7,6 +7,12 @@ module.exports = {
         'no-use-before-define': 'error',
         'no-shadow': 'warn',
         'no-undef': 'error',
-        'no-unused-vars': 'warn',
+        'no-unused-vars': [
+            'warn',
+            {
+                ignoreRestSiblings: true,
+                varsIgnorePattern: '^_',
+            },
+        ],
     },
 };
