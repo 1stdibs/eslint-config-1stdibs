@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-1stdibs",
   "github": "https://github.com/1stdibs/eslint-config-1stdibs",
-  "version": "7.1.1",
+  "version": "7.1.2",
   "description": "ESLint configurations for 1stdibs projects.",
   "main": "index.js",
   "author": "1stdibs <npm@1stdibs.com> (https://1stdibs.com)",
@@ -13,7 +13,7 @@
     "@typescript-eslint/eslint-plugin": "^3.7.1",
     "@typescript-eslint/parser": "^3.7.1",
     "babel-eslint": "^10.0.3",
-    "eslint-config-1stdibs-base": "^5.0.1",
+    "eslint-config-1stdibs-base": "^5.0.2",
     "eslint-plugin-flowtype": "^3.9.1",
     "eslint-plugin-react": "^7.20.0",
     "eslint-plugin-react-hooks": "^1.6.0",
