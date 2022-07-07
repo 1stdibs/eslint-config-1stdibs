@@ -12,7 +12,6 @@ module.exports = {
         '@typescript-eslint/camelcase': 'off',
         '@typescript-eslint/explicit-member-accessibility': 'off',
         '@typescript-eslint/no-explicit-any': 'warn',
-        '@typescript-eslint/no-unnecessary-condition': 'warn',
         '@typescript-eslint/prefer-interface': 'off',
         '@typescript-eslint/explicit-function-return-type': [
             'error',
