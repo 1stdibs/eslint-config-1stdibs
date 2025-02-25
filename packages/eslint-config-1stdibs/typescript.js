@@ -32,5 +32,9 @@ module.exports = {
         '@typescript-eslint/ban-ts-ignore': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
         '@typescript-eslint/no-empty-function': 'off',
+        // turn off generic no-use-before-define
+        "no-use-before-define": "off",
+        // turn on ts supported no-use-before-define
+        "@typescript-eslint/no-use-before-define": "error",    
     },
 };
