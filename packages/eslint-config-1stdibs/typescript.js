@@ -35,6 +35,9 @@ module.exports = {
         // turn off generic no-use-before-define
         "no-use-before-define": "off",
         // turn on ts supported no-use-before-define
-        "@typescript-eslint/no-use-before-define": "error",    
+        "@typescript-eslint/no-use-before-define": "error",
+        "@typescript-eslint/no-unused-vars": ['error', {
+            "caughtErrors": "none",
+        }]
     },
 };
