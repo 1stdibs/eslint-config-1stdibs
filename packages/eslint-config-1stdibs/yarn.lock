@@ -744,10 +744,10 @@ escape-string-regexp@^4.0.0:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-4.0.0.tgz#14ba83a5d373e3d311e5afca29cf5bfad965bf34"
   integrity sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==
 
-eslint-config-1stdibs-base@^5.0.2:
-  version "5.0.2"
-  resolved "https://registry.yarnpkg.com/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-5.0.2.tgz#8a27859c25e4647aa4512641d25d3b0fa03f51f2"
-  integrity sha512-lZQS2XSHFRBaOKjswPdrorNF7p60D0EhTegENRKGTyMfIA6XmSFc4FXp6ciCJrajMvnfMkUw9cTkvHA8ZwhnUg==
+eslint-config-1stdibs-base@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/eslint-config-1stdibs-base/-/eslint-config-1stdibs-base-5.1.0.tgz#478bf650547cafcb88c286b0e896d67ebd58c24b"
+  integrity sha512-Sw1aPELNL3fo6OZjRYT1dfwuQbJw6KKpWFFQu60XUBwHY9oFCitMc9/pzS1KKGwncLTMHe23aktUEsjSW+FZSg==
   dependencies:
     eslint-config-prettier "^6.0.0"
     eslint-plugin-import "^2.26.0"
