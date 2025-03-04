@@ -28,6 +28,7 @@ module.exports = {
                 message: "Don't declare enums. TypeScript + babel issues",
             },
         ],
+        'import/consistent-type-specifier-style': ['error', 'prefer-inline'],
         '@typescript-eslint/no-inferrable-types': 'off',
         '@typescript-eslint/ban-ts-ignore': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
